@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "version": 2,
+  "env": {
+    "MONGODB_URI": "@mongodb_uri",
+    "GEMINI_API_KEY": "@gemini_api_key",
+    "APP_URL": "@app_url",
+    "NODE_ENV": "production"
+  }
+}
